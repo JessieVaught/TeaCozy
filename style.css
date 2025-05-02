@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+nav{
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px seashell;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-decoration: underline;
+    color: seashell;
+    margin: 10px;
+}
+a {
+    color: seashell;
+}
+.menu-item {
+    height: 200px;
+    width: 300px;
+}
+.logo {
+    height: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+.mission-container {
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-content: center;
+    width: 1200px;
+    height: 700px;
+    background-image: url("./images/img-mission-background.jpg");
+}
+.mission-statement {
+    display: block;
+    background-color: black;
+}
+.container {
+    margin: 30px auto;
+}
+.specials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.locations {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+.spacing {
+    background-image: url("./images/img-locations-background.jpg");
+    display: block;
+    align-content: center;
+    width: 1200px;
+    height: 500px;
+}
+.location-block {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
+.stores {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 10px;
+}
+.store-card {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+}
+.copy-rights {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
